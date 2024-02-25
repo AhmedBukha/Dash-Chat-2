@@ -78,7 +78,7 @@ class MessageOptions {
   final Function(ChatUser)? onLongPressAvatar;
 
   /// Function to call when the user long press on a message
-  final Function(ChatMessage, BuildContext)? onLongPressMessage;
+  final Function(ChatMessage)? onLongPressMessage;
 
   /// Function to call when the user press on a message
   final Function(ChatMessage)? onPressMessage;
